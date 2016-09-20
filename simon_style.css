@@ -1,0 +1,70 @@
+body {
+  background-color: #333333;
+  text-align: center;
+}
+.box{
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  margin-left: 42%;
+  margin-top: 10%;
+  
+}
+.count, .test, .test2, .test3, .counter, .status {
+color:white;
+}
+.box1 {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+}
+.box1:hover{
+opacity: .85;
+}
+.yellow {
+  background-color: yellow;
+  bottom: 0;
+  left: 0;
+  border-radius:0 0 0 10px;
+}
+.yellow:active{
+  opacity:.5;
+}
+.blue {
+  background-color: blue;
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 10px 0;
+}
+.blue:active{
+  opacity:.5;
+}
+.green {
+  background-color: green;
+  top: 0;
+  left: 0;
+  border-radius:10px 0 0 0;
+}
+.green:active, .active-class {
+opacity: .5;
+}
+.red {
+  background-color: red;
+  right: 0;
+  border-radius:0 10px 0 0;
+}
+.red:active{
+  opacity:.5;
+}
+.strict1{
+  background-color: red;
+}
+.start, .strict {
+  border-radius: 40px;
+  padding: 8px;
+  margin: 5px;
+  font-family: Helvetica;
+  border-style: none;
+  box-shadow: 2px 3px gray;
+}
